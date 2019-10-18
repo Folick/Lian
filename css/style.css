@@ -23,6 +23,7 @@ body {
   margin: auto;
 }
 
+/* Header */
 .header {
   box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.15);
   background-color: #fff;
@@ -120,4 +121,111 @@ body {
   left: -30px;
   color: #fff;
   cursor: pointer;
+}
+
+/* Slider */
+
+.slide-text {
+  background-image: url('../images/slide.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 263px 0 331px 0;
+}
+
+/* bg image slide */
+.second-slide {
+  background-image: url('../images/slide.png');
+}
+
+.third-slide {
+  background-image: url('../images/slide.png');
+}
+
+/* slide text */
+.slide-text h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  background-color: #000;
+}
+
+.slide-text p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 7.2px;
+  text-align: center;
+  margin-top: 38px;
+}
+
+/* slide prev */
+.owl-carousel .owl-nav button.owl-prev {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+
+  width: 43px;
+  height: 43px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  position: absolute;
+  top: 50%;
+  right: 10%;
+
+  outline: none;
+  width: 43px;
+  height: 43px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+.owl-carousel .owl-nav button.owl-prev span {
+  top: -35%;
+  font-size: 50px;
+  position: absolute;
+  right: 45%;
+  font-weight: 300;
+  color: #fff;
+}
+
+.owl-carousel .owl-nav button.owl-next span {
+  top: -35%;
+  font-size: 50px;
+  position: absolute;
+  right: 15%;
+  font-weight: 300;
+  color: #fff;
+}
+
+/* slide dot */
+
+
+.owl-theme .owl-dots {
+  position: absolute;
+  bottom: 58px;
+  display: block;
+  margin: 0 auto;
+  left: 48%;
 }
