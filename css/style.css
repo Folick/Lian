@@ -714,5 +714,85 @@ body {
   margin-top: 44px;
   padding-bottom: 100px;
 }
-/*  */
 
+/*  */
+.project-nav-prev,
+.project-nav-next {
+  float: left;
+}
+
+.project-nav-show {
+  float: right;
+}
+
+.project-nav-prev::after,
+.project-nav-next::after,
+.project-nav-show::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.project-nav-prev,
+.project-nav-next,
+.project-nav-show {
+  border-left: 1px solid #ebebeb;
+  text-transform: uppercase;
+  position: relative;
+}
+
+
+.project-nav-prev a,
+.project-nav-next a,
+.project-nav-show a {
+  display: block;
+  color: #071f08;
+  padding: 26px 39px 24px 37px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.97px;
+  transition: .5s;
+}
+
+.project-nav-prev a::before {
+  content: '\f053';
+  font-family: 'FontAwesome';
+  font-weight: 400;
+  font-size: 11px;
+  font-style: normal;
+  padding-right: 15px;
+}
+
+.project-nav-next a,
+.project-nav-show a,
+.project-nav-show a {
+  padding: 26px 54px 24px 54px;
+  border-right: 1px solid #ebebeb;
+}
+
+.project-nav-next a::after {
+  content: '\f054';
+  font-family: 'FontAwesome';
+  font-weight: 400;
+  font-size: 11px;
+  font-style: normal;
+  padding-left: 16px;
+}
+
+.project-nav-prev a:hover,
+.project-nav-next a:hover,
+.project-nav-show a:hover {
+  background-color: #8b8b8b;
+  color: #fff;
+}
+
+.project-nav-show a::before {
+  content: '\f0ca';
+  font-family: 'FontAwesome';
+  font-weight: 400;
+  font-size: 11px;
+  font-style: normal;
+  padding-right: 16px;
+}
