@@ -989,3 +989,36 @@ body {
 .about__item-block-social a:hover {
   color: #000;
 }
+
+/* works */
+.works {
+  background-color: #fafafa;
+  padding-bottom: 70px;
+}
+
+.works h2 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 38px;
+}
+
+.works p {
+  max-width: 595px;
+  margin: auto;
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  line-height: 30px;
+  text-align: center;
+  color: #777777;
+  margin-bottom: 67px;
+}
+
+.works__items {
+  display: flex;
+  justify-content: space-between;
+}
