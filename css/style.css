@@ -1482,3 +1482,228 @@ iframe {
   color: #000;
   background-color: #777777;
 }
+
+/* contact */
+.touch {
+  background-image: url('../images/bg-about.png');
+  background-position: center right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #f0f0f2;
+}
+
+.touch h2 {
+  display: inline-block;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 300;
+  padding: 5px 30px;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  background-color: #000;
+  margin-top: 115px;
+}
+
+.touch p {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 7.2px;
+  margin-top: 44px;
+  padding-bottom: 100px;
+}
+
+/* form */
+.info {
+  padding-top: 82px;
+  background-color: #fafafa;
+  padding-bottom: 80px;
+}
+
+.info__text {
+  max-width: 321px;
+  display: inline-block;
+}
+
+.info__form {
+  max-width: 760px;
+  display: inline-block;
+}
+
+.info .info__text .info__text-title h2 {
+  font-weight: 300;
+  color: #000;
+  font-size: 30px;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+}
+
+.info .info__text .info__text-title span {
+  color: #7d7e7d;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  display: block;
+  margin-top: 15px;
+}
+
+.info .info__text .info__text-title span::after {
+  content: '';
+  margin: 18px 0 25px 0;
+  display: block;
+  width: 60px;
+  height: 1px;
+  background-color: #000000;
+}
+
+
+.info .info__text p {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.38px;
+  color: #222222;
+  margin-top: 34px;
+}
+
+.info .info__text p:last-child {
+  margin-top: 10px;
+}
+
+.info .info__text p span {
+  color: #777777;
+  font-weight: 400;
+}
+
+.info .info__text p a {
+  color: #555555;
+  transition: .3s;
+}
+
+.info .info__text p a:hover {
+  color: #222222;
+}
+
+/* form */
+.info .info__form textarea {
+  resize: none;
+  transition: .3s;
+  width: 748px;
+  outline: none;
+  height: 150px;
+  border: 1px solid #ebebeb;
+  background-color: #fafafa;
+  padding: 12px 0 0 12px;
+}
+
+.info .info__form textarea::placeholder {
+  color: #bababa;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.35px;
+}
+
+.info .info__form input {
+  outline: none;
+  transition: .3s;
+  padding: 15px 176px 15px 8px;
+  margin: 0 30px 30px 0;
+  border: 1px solid #ebebeb;
+  background-color: #fafafa;
+}
+
+.info .info__form input:nth-of-type(2) {
+  margin-right: 0;
+}
+
+.info .info__form textarea:focus,
+.info .info__form input:focus {
+  border-left: 3px solid rgba(0, 0, 0, .3);
+}
+
+.info .info__form input::placeholder {
+  color: #bababa;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.35px;
+}
+
+.info .info__form button {
+  color: #fff;
+  outline: none;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.79px;
+  padding: 14px 49px;
+  border: none;
+  background-color: #000;
+  transition: .3s;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+.info .info__form button:hover {
+  cursor: pointer;
+  color: #111;
+  background-color: #999;
+}
+
+/* map */
+#map iframe {
+  width: 100%;
+  height: 360px;
+}
+
+/* values */
+.values {
+  background-color: #fafafa;
+  padding: 71px 0 62px 0;
+}
+
+.values .values__headline h2 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 12px;
+  color: #000;
+  font-weight: 300;
+  letter-spacing: 7.2px;
+  text-transform: uppercase;
+}
+
+.values .values__headline p {
+  max-width: 660px;
+  text-align: center;
+  margin: auto;
+  padding-top: 35px;
+}
+
+.values__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.values .values__block-item {
+  margin-top: 60px;
+  max-width: 365px;
+}
+
+.values .values__block-item h2 {
+  color: #000000;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 7.2px;
+  font-weight: 300;
+  padding: 25px 0 30px 0;
+}
+
+.values .values__block-item p {
+  font-weight: 400;
+  letter-spacing: 0.35px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #777777;
+}
