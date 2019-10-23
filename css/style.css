@@ -1679,6 +1679,9 @@ iframe {
   text-align: center;
   margin: auto;
   padding-top: 35px;
+  letter-spacing: 0.35px;
+  color: #777777;
+  line-height: 30px;
 }
 
 .values__block {
