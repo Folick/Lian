@@ -264,6 +264,9 @@ iframe {
   flex-flow: column wrap;
   max-height: 1300px;
 }
+.posts .block .img__link img {
+  display:block;
+}
 
 /* nav */
 .toggles {
